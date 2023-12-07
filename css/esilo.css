@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #38388b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+header h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+header nav {
+  height: 80px;
+  width: 80%;
+  margin: 10px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20%;
+}
+header ul {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+header li a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+header li a:hover {
+  background-color: #38388b;
+  border-radius: 20%;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px;
+}
+main p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 20px;
+}
+main .fotos {
+  width: 400px;
+  height: 500px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=esilo.css.map */

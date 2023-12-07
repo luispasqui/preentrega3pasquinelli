@@ -1,0 +1,65 @@
+$pad:20px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #38388b ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+header{
+    h1{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        padding: $pad;
+    }
+    nav{
+        height: 80px;
+      width: 80%;
+      margin: 10px auto; 
+      background-color: white;
+      padding: $pad;
+      border-radius: 20%;
+    }
+    ul{
+        list-style-type: none;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        a{
+            padding: 10px;
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            &:hover{
+                background-color: #38388b;
+                border-radius: 20%;
+            }
+        }
+    }
+}
+main{
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    p{
+        font-size: 1.5rem;
+        line-height: 1.5;
+        padding: 20px;
+    }
+    .fotos{
+        width: 400px;
+        height: 500px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+       
+    }
+}
